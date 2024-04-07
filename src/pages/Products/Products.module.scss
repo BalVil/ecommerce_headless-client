@@ -1,0 +1,51 @@
+.products {
+    display: flex;
+    padding: 28px 42px;
+}
+
+.filter {
+    position: sticky;
+    flex: 1;
+    height: 100%;
+    top: 60px;
+}
+
+.filterItem {
+    &:not(:last-child) {
+        margin-bottom: 28px;
+    }
+
+    & h3 {
+        margin-bottom: 16px;
+        font-weight: 500;
+    }
+}
+
+.inputItem {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 8px;
+
+    & label {
+        margin-left: 8px;
+    }
+}
+
+.button {
+    margin-left: 8px;
+    padding: 6px 16px;
+    background-color: var(--text-primary);
+    color: var(--background);
+    cursor: pointer;
+}
+
+.itemList {
+    flex: 3;
+}
+
+.catImg {
+    height: 300px;
+    margin-bottom: 60px;
+}

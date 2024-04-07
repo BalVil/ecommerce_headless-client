@@ -1,0 +1,41 @@
+.beInTouch {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: var(--accent);
+    color: var(--background);
+}
+
+.wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+}
+
+.button {
+    padding: 8px;
+    border-radius: 0 4px 4px 0;
+    background-color: var(--text-primary);
+    color: var(--background);
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+}
+
+.icon {
+    vertical-align: middle;
+    font-size: 24px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {}
+}

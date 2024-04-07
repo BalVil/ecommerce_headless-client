@@ -1,0 +1,37 @@
+.slider {
+    position: relative;
+    height: calc(100dvh - 80px);
+    width: 100dvw;
+    overflow: hidden;
+}
+
+.container {
+    width: 300dvw;
+    height: 100%;
+    display: flex;
+    transition: all 1s ease;
+}
+
+.icons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.icon {
+    vertical-align: middle;
+    font-size: 50px;
+    border: 1px solid var(--text-secondary);
+    color: var(--secondary);
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+
+    &:active {
+        opacity: 0.7;
+    }
+}

@@ -1,0 +1,62 @@
+@import '../../styles/vars.scss';
+
+.footer {
+    padding: 100px 200px 20px 200px;
+}
+
+.top {
+    display: flex;
+    gap: 48px;
+}
+
+.item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    text-align: justify;
+    font-size: 0.9rem;
+
+    & h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+
+    }
+
+    & p {
+        color: var(--text-secondary);
+    }
+}
+
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.bottomFirst {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: var(--secondary);
+    ;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.copyright {
+    margin-left: 20px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+
+.bottomSecond {
+    & img {
+        height: 50px;
+    }
+}

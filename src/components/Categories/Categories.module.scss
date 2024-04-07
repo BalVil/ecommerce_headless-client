@@ -1,0 +1,62 @@
+.categories {
+    height: 80dvh;
+    display: flex;
+    gap: 8px;
+    margin: 8px;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.colLarge {
+    flex: 2;
+}
+
+.row {
+    position: relative;
+    flex: 1;
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+
+    & button {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 48px;
+        width: fit-content;
+        min-width: 100px;
+        padding: 8px;
+        margin: auto;
+        background-color: color-mix(in srgb, var(--background-secondary), transparent 5%);
+        text-transform: uppercase;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+.link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 48px;
+    width: fit-content;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin: auto;
+    background-color: color-mix(in srgb, var(--background-secondary), transparent 5%);
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+}
